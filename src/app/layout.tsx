@@ -4,6 +4,7 @@ import Link from "next/link";
 import Header from "./components/header/Header";
 import Nav from "./components/nav/page";
 import Footer from "./components/footer/page";
+import ViewCounterRoute from "./components/viewcounter/viewcounter";
 
 const inter = Inter({ subsets: ["latin"] });
 const chivo = Chivo({ subsets: ["latin"] });
@@ -29,6 +30,7 @@ export default function RootLayout({
       <body className={chivo.className}>
         <Header />
         <Nav />
+        <ViewCounterRoute />
 
         {/* <nav>
           <li>
