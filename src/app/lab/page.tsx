@@ -15,7 +15,7 @@ export default async function LabListPage() {
         {posts.map((post) => {
           return (
             <div key={post.slug}>
-              <Link href={`lab/${post.slug}`}>
+              <Link href={`/lab/${post.slug}`}>
                 {" "}
                 <Image src={post.image} alt="" width="400" height="400" />
                 {post.title}

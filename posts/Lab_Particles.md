@@ -1,5 +1,5 @@
 ---
-title: Lab_ Particles
+title: Lab_Particles
 date: 2023-06-09
 image: /images/wiggle.jpg
 ---

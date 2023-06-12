@@ -1,6 +1,7 @@
 import "./globals.css";
 import "./home.css";
 import { Kanit } from "next/font/google";
+import "./components/viewcounter/viewcounter";
 
 const kanit = Kanit({ subsets: ["latin"], weight: "100" });
 
